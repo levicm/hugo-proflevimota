@@ -1,3 +1,56 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+baseURL = "http://prof.levimota.com/"
+languageCode = "pt-br"
+title = "Prof. Levi Mota"
+theme = "hugo-initio"
+
+[params]
+    name = "Prof. Levi Mota"
+    description = "Ciência da Computação"
+    email = "levi.mota@academico.ifs.edu.br"
+    address = "IFS, Itabaiana-SE, Brasil"
+    year = 2021
+    avatar = "images/avatar-levi.jpg"
+    avatarclass = "circle"
+    background = ""
+    banner = "images/bg_head2.jpg"
+    favicon = "images/favicons/favicon-32x32.png"
+
+    showSubheader = true
+    showServices = true
+    showRecentWorks = false
+    showDownloads = true
+    showClients = true
+
+    showFooterContact = true
+    showFooterFollowMe = true
+
+[[menu.main]]
+    name = "início"
+    url = "/"
+    weight = 1
+
+[[menu.main]]
+    name = "disciplinas"
+    url = "https://1drv.ms/u/s!Aq7B2RO3yZ3Igs5G70FNlhHKevkjDg?e=Qnb1mh"
+    weight = 4
+
+[[menu.main]]
+    name = "Lattes"
+    url = "http://lattes.cnpq.br/0612840484987096"
+    weight = 5
+
+[[params.social]]
+    title = "linkedin"
+    url = "https://br.linkedin.com/in/levi-mota-1071bb15"
+    icon = "fab fa-linkedin"
+    footer = true
+    sharethis = true
+    network = "linkedin"
+
+[[params.social]]
+    title = "github"
+    url = "https://github.com/levicm"
+    icon = "fab fa-github"
+    footer = true
+    sharethis = true
+    network = ""

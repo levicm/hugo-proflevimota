@@ -1,4 +1,4 @@
-baseURL = "http://prof.levimota.com/"
+baseURL = "/"
 languageCode = "pt-br"
 title = "Prof. Levi Mota"
 theme = "hugo-initio"
